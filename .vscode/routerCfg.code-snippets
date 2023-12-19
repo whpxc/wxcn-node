@@ -1,0 +1,18 @@
+{
+	"routerCfg快速生成模板": {
+		"prefix": "rpage",
+		"body": [
+			"import { IRoutePageConfig } from \"@/router/type\"",
+			"const rougeConfig: IRoutePageConfig = {",
+			"   /**路由 默认为文件所在目录 */",
+			"   path: \"\",",
+			"   /**是否需要登录验证 默认否 */",
+			"   isAuth: false,",
+			"   /**是否是根级路由 默认否 */",
+			"   isRoot: false",
+			"}",
+			"export default rougeConfig"
+		],
+		"description": "routerCfg"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"scss快速生成模板": {
+		"prefix": "scss",
+		"body": [".root {", ":global {", "}", "}"],
+		"description": "scss"
+	}
+}

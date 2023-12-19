@@ -1,0 +1,12 @@
+{
+	"explanetory": {
+		"prefix": "zs",
+		"body": ["/** $1 */"],
+		"description": "explanetory"
+	},
+	"explanetoryStartEnd": {
+		"prefix": "zstartend",
+		"body": ["/** start: $1 */", "/** end: $1 */"],
+		"description": "explanetory"
+	}
+}

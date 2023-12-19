@@ -1,0 +1,26 @@
+{
+	"reduxjstoolkit": {
+		"prefix": "redux",
+		"body": [
+			"import { createSlice } from \"@reduxjs/toolkit\"",
+			"interface TestState {",
+			"  test: string",
+			"}",
+			"const initialState: TestState = {",
+			" test:''",
+			"}",
+			"export const testSlice = createSlice({",
+			"name: \"test\",",
+			" initialState,",
+			" reducers: {",
+			"   setTest: (state, actions) => {",
+			"     state.test = actions.payload",
+			"   },",
+			"}",
+			"})",
+			"export const { setTest } = testSlice.actions",
+			"export default testSlice.reducer"
+		],
+		"description": "redux"
+	}
+}

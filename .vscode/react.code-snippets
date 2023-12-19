@@ -1,0 +1,14 @@
+{
+	"react快速生成模板": {
+		"prefix": "react",
+		"body": [
+			"import classNames from \"classnames\"",
+			"import style from \"./style.module.scss\"",
+			"const Index = () => {",
+			" return <div className={classNames(style.root)}></div>",
+			"}",
+			"export default Index"
+		],
+		"description": "react"
+	}
+}
